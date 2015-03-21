@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #FCD53A;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+h1, h2 {
+  font-weight: 900;
+  color: #414066;
+  margin: 2rem 0 0 0;
+  line-height: 1.1;
+}
+li {
+  margin: 0 0 0.5rem 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0.5rem;
+}
+pre code {
+  display: block;
+  background: #222;
+  font: 12px Monaco;
+  color: white;
+  padding: 1rem;
+  overflow: auto;
+}
+pre code span {
+  color: #888;
+}
+
+header {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 2rem;
+  margin: 0 0 1rem 0;
+}
+header p {
+  font-size: 0.9rem;
+}
+header :last-child {
+  margin-bottom: 0;
+}
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+.final {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.which {
+  text-align: center;
+  background: #222;
+  padding: 0.5rem 1rem;
+  color: white;
+  margin: 0 0 1rem 0;
+}
+.which-warning {
+  display: none;
+}
