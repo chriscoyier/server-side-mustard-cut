@@ -27,7 +27,7 @@
       This needs to be kept in sync with the server
       side distinction
     */
-    if (screen.width > 700) {
+    if (window.outerWidth > 700) {
 
       // Halt the browser from loading/doing anything else.
       window.stop();
