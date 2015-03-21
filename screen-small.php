@@ -22,7 +22,7 @@
 </head>
 
 <body>
-
+  
   <!-- See, we can do cool stuff like have different stylesheets -->
   <div class="which">
     You got the small screen document.
@@ -30,7 +30,7 @@
     <!-- Here's a way you can offer a way to fix a mistake... -->
     <div class="which-warning">
       Your screen looks bigger though...
-      <a href="javascript: document.cookie = 'screen-width=; expires=Thu, 01 Jan 1970 00:00:01 GMT;'; location.reload(true);">clear cookies and refresh?</a>
+      <a href="javascript: document.cookie = 'screen-width=; expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/'; location.reload(true);">clear cookies and refresh?</a>
     </div>
   </div>
 

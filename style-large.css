@@ -1,3 +1,9 @@
 .which {
   background: #cd5607;
 }
+
+@media (max-width: 700px) {
+  .which-warning {
+    display: block;
+  }
+}

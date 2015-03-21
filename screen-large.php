@@ -20,10 +20,15 @@
 </head>
 
 <body>
-
+  
   <!-- and different HTML! -->
   <div class="which">
     You got the large screen document.
+    
+    <div class="which-warning">
+      Your screen looks smaller though...
+      <a href="javascript: document.cookie = 'screen-width=; expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/'; location.reload(true);">clear cookies and refresh?</a>
+    </div>
   </div>
 
   <?php include_once("content.php"); ?>
