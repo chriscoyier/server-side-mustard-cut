@@ -13,7 +13,7 @@
     // This is where we're setting the mustard cutting information.
     // In this case we're just setting screen width, but it could
     // be anything. Think http://modernizr.com/
-    document.cookie = "screen-width=" + screen.width + expires + "; path=/";
+    document.cookie = "screen-width=" + window.outerWidth + expires + "; path=/";
 
     /*
       Only refresh if the WRONG template loads.
