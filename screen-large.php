@@ -7,7 +7,7 @@
   <?php
     // Run this script as high up the page as you can,
     // but only if the cookie isn't already present.
-    if (!isset($_COOKIE["screen-width"])) { ?>
+    if (isset($_COOKIE["screen-width"]) == 0) { ?>
       <script src="mobile-mustard.js"></script>
   <?php } ?>
 
