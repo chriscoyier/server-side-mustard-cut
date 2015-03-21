@@ -2,7 +2,7 @@
 
   // This file is just a FAKE ROUTER
 
-  if (isset($_COOKIE["screen-width"])) {
+  if (isset($_COOKIE["screen-width"]) == 1) {
 
     // Large screen
     if ($_COOKIE["screen-width"] > 700) {
